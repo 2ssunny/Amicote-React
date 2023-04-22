@@ -1,0 +1,14 @@
+.hometitle {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../media/DSC00529.JPG);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: antiquewhite;
+}
+
+.title-text {
+  padding-left: 100px;
+  padding-top: 20px;
+}

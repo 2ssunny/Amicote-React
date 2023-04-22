@@ -6,9 +6,10 @@ import "./about.css";
 
 function Home() {
   return (
-    <div className="title">
+    <div className="about">
       <div className="body">
-        <h1>Explanation</h1>
+        <h1 className="abouttitle">Explanation</h1>
+        <p className="text">Explanation about amicote</p>
       </div>
     </div>
   );

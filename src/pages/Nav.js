@@ -7,7 +7,7 @@ import logo from "../media/favicon.jpg";
 
 function App() {
   return (
-    <div>
+    <div className="bar">
       <header className="title-header">
         <Link to="/" className="tltle-text">
           <img src={logo} className="title-logo" alt="logo" />

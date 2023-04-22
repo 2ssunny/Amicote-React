@@ -9,7 +9,7 @@ import Home from "./pages/Home.js";
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <BrowserRouter>
         <Nav />
         <Routes>

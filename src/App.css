@@ -1,21 +1,10 @@
-.title-header {
-  background-color: #282c34;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
-.title-logo {
-  height: 80px;
-  width: auto;
-  padding-right: 20px;
-}
-
-.tltle-text {
-  margin-left: 20px;
-  color: white;
-  text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
 }
 
 .body-image {
