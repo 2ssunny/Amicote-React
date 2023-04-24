@@ -33,10 +33,24 @@
   padding-top: 50px;
 }
 
-.p1_1_1 {
+.p1_1 {
   width: 450px;
 }
 
-.p1_1_2 {
+.p1_2 {
+  width: 450px;
+}
+
+.product_2 {
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.p2_1 {
+  width: 450px;
+}
+
+.p2_2 {
   width: 450px;
 }
