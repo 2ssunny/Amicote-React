@@ -1,0 +1,42 @@
+.product {
+  background-color: antiquewhite;
+  background-size: 100%;
+}
+
+.producttitle {
+  text-align: center;
+  height: 100vh;
+  color: black;
+  padding-top: 50px;
+  font-size: 100px;
+}
+
+.product_image {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.product_text {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageempty {
+  width: 50px;
+}
+
+.product_1 {
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.p1_1_1 {
+  width: 450px;
+}
+
+.p1_1_2 {
+  width: 450px;
+}

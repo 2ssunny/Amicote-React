@@ -6,6 +6,7 @@ import "./App.css";
 import About from "./pages/About.js";
 import Nav from "./pages/Nav.js";
 import Home from "./pages/Home.js";
+import Products from "./pages/Products.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
