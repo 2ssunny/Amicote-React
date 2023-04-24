@@ -1,4 +1,4 @@
-# Amicote Catalog webpage
+# Amicote Catalogue webpage
 
 ## Amicote store
 
