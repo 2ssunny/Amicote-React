@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Amicote-React/static/css/main.1eacfcf8.css",
+    "main.js": "/Amicote-React/static/js/main.6d3216c0.js",
+    "static/media/DSC00671.JPG": "/Amicote-React/static/media/DSC00671.d8e238c24844ef664dc6.JPG",
+    "static/media/DSC00284.JPG": "/Amicote-React/static/media/DSC00284.69fd4e2c0b76bbe27980.JPG",
+    "static/media/background.JPG": "/Amicote-React/static/media/background.946bf1afe3e2ac5db0ea.JPG",
+    "static/media/DSC00737.JPG": "/Amicote-React/static/media/DSC00737.390b9c114f7e43bd7d5c.JPG",
+    "static/media/DSC00250.JPG": "/Amicote-React/static/media/DSC00250.fcaea2173e00048b8f2c.JPG",
+    "static/media/favicon.jpg": "/Amicote-React/static/media/favicon.c53442d13d231356f477.jpg",
+    "index.html": "/Amicote-React/index.html",
+    "main.1eacfcf8.css.map": "/Amicote-React/static/css/main.1eacfcf8.css.map",
+    "main.6d3216c0.js.map": "/Amicote-React/static/js/main.6d3216c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eacfcf8.css",
+    "static/js/main.6d3216c0.js"
+  ]
+}
