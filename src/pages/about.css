@@ -2,7 +2,9 @@
   background-color: antiquewhite;
   background-size: 100%;
 }
-
+.aboutbody {
+  height: 90vh;
+}
 .abouttitle {
   text-align: center;
 }

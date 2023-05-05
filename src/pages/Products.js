@@ -5,12 +5,12 @@ import { useScrollFadeIn } from "../animation.js";
 
 import "./products.css";
 
-import p1_1 from "../media/DSC00671.JPG";
-import p1_2 from "../media/DSC00737.JPG";
-import p2_1 from "../media/DSC00250.JPG";
-import p2_2 from "../media/DSC00284.JPG";
-import p3_1 from "../media/DSC00326.JPG";
-import p3_2 from "../media/DSC00522.JPG";
+import p1_1 from "../media/DSC00671.jpg";
+import p1_2 from "../media/DSC00737.jpg";
+import p2_1 from "../media/DSC00250.jpg";
+import p2_2 from "../media/DSC00284.jpg";
+import p3_1 from "../media/DSC00326.jpg";
+import p3_2 from "../media/DSC00522.jpg";
 
 function Home() {
   const animatedItem = {
