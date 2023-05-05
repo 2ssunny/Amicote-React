@@ -7,17 +7,17 @@ import { useScrollFadeIn } from "../animation.js";
 import "./home.css";
 import { useMediaQuery } from "react-responsive";
 
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 1024 });
+  return isDesktop ? children : null;
+};
 const Tablet = ({ children }) => {
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
   return isTablet ? children : null;
 };
 const Mobile = ({ children }) => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   return isMobile ? children : null;
-};
-const Default = ({ children }) => {
-  const isNotMobile = useMediaQuery({ minWidth: 768 });
-  return isNotMobile ? children : null;
 };
 
 function Home() {
@@ -27,24 +27,24 @@ function Home() {
   };
   return (
     <div>
-      <Default>
-        <div className="homeback">
-          <div className="hometitle">
-            <div className="homebody">
-              <h1 className="title-text" {...animatedItem[0]}>
+      <Desktop>
+        <div className="homeback_desktop">
+          <div className="hometitle_desktop">
+            <div className="homebody_desktop">
+              <h1 className="title-text_desktop" {...animatedItem[0]}>
                 Amicote
               </h1>
             </div>
           </div>
-          <div className="titleexplain">
-            <div className="titleex">
-              <h1 className="titleex-text" {...animatedItem[1]}>
+          <div className="titleexplain_desktop">
+            <div className="titleex_desktop">
+              <h1 className="titleex-text_desktop" {...animatedItem[1]}>
                 Furniture Store
               </h1>
             </div>
           </div>
         </div>
-      </Default>
+      </Desktop>
       <Tablet>
         <div className="homeback_tablet">
           <div className="hometitle_tablet">

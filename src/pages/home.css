@@ -85,3 +85,32 @@
   text-align: center;
   justify-content: center;
 }
+
+.homeback_desktop {
+  background-color: antiquewhite;
+}
+
+.hometitle_desktop {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../media/background.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-text_desktop {
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 70px;
+}
+
+.titleex-text_desktop {
+  height: 100vh;
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+}

@@ -18,8 +18,9 @@
 }
 
 .tltle-text {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   color: black;
   text-decoration: none;
 }
@@ -30,29 +31,30 @@
 }
 
 .Products-Box {
-  width: 130px;
   text-align: center;
-  height: 64px;
   line-height: 64px;
   font-weight: 400;
 }
 
 .Products {
-  background-color: black;
+  list-style: none;
+  background-color: skyblue;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 20px;
+  margin-top: 5.5px;
   height: 0;
   position: absolute;
   z-index: 5;
   overflow: hidden;
   transition: all 0.5s ease;
+  border-radius: 15px;
 }
 
 .Product-text {
   height: 50px;
   line-height: 50px;
-  background: #4f7aca;
+  color: black;
 }
 
 .Products-Box:hover > .Products {
@@ -60,7 +62,7 @@
 }
 
 .Product-text:hover {
-  color: #fff;
+  color: gray;
   font-weight: bold;
   text-decoration: underline;
   text-underline-position: under;
@@ -68,4 +70,30 @@
 
 .introduction {
   padding-left: 20px;
+}
+
+.contact_button {
+  position: relative;
+}
+
+.contact {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+}
+
+.contact a:nth-child(1) {
+  /*Instagram*/
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
