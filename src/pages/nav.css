@@ -8,7 +8,7 @@
   color: white;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .title-logo {
@@ -18,7 +18,8 @@
 }
 
 .tltle-text {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: black;
   text-decoration: none;
 }
@@ -26,6 +27,43 @@
 .title-text2:hover {
   color: gray;
   transition: 0.4s;
+}
+
+.Products-Box {
+  width: 130px;
+  text-align: center;
+  height: 64px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+.Products {
+  background-color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+  height: 0;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.Product-text {
+  height: 50px;
+  line-height: 50px;
+  background: #4f7aca;
+}
+
+.Products-Box:hover > .Products {
+  height: 200px;
+}
+
+.Product-text:hover {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .introduction {
