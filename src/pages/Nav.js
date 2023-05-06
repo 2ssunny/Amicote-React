@@ -69,6 +69,45 @@ function App() {
               </div>
             </div>
           </Desktop>
+          <Mobile>
+            <Link to="About" className="tltle-text">
+              <span className="title-text2">About</span>
+            </Link>
+
+            <li className="Products-Box">
+              <Link to="Products" className="tltle-text">
+                <span className="title-text2">Products</span>
+              </Link>
+              <ul className="Products">
+                <li>
+                  <Link to="Products" className="Product-text">
+                    <span className="Product-text-2"> Product 1 </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="Products" className="Product-text">
+                    <span className="Product-text-2"> Product 2 </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="Products" className="Product-text">
+                    <span className="Product-text-2"> Product 3 </span>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <div className="contact_button">
+              <div className="contact">
+                <a
+                  href="https://www.instagram.com/ami__cote/"
+                  target="_blank"
+                  class="L-Affiliate-Tagged"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </Mobile>
         </header>
       </div>
     </div>
